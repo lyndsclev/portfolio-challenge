@@ -1,0 +1,111 @@
+/* GLOBAL */
+
+:root {
+    --hot-pink: #ff0080;
+    --dark-gray: #595959;
+    --light-gray: #eeeeeeff;
+    --light-pink: #ffcae47b;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--light-gray);
+    padding: 20px 35px;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: var(--hot-pink);
+    font-size: 36px;
+}
+
+header nav {
+    margin: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    margin: 20px;
+    padding: 0 0 5px 0;
+    color: var(--hot-pink);
+    font-size: 20px;
+}
+
+header nav ul li a:hover {
+    border-bottom: 3px solid var(--hot-pink);
+}
+
+/* HERO */
+
+.hero {
+    background-image: url('/assets/images/donut-background-img.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    height: 550px;
+}
+
+.hero-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-boxes h2, p {
+    margin: 15px 0 15px 200px;
+    padding: 20px 30px;
+    background: white;
+    color: var(--dark-gray)
+;}
+
+.hero-boxes h2 {
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+/* ABOUT */
+
+
+/* WORK */
+
+
+/* CONTACT */
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--light-gray);
+    color: var(--hot-pink);
+    padding: 20px 35px;
+    justify-content: center;
+}
+
