@@ -59,7 +59,7 @@ header nav ul li a:hover {
 /* HERO */
 
 .hero {
-    background-image: url('/assets/images/donut-background-img.jpg');
+    background-image: url('../images/donut-background-img.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
