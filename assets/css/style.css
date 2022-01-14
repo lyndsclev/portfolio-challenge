@@ -89,6 +89,18 @@ header nav ul li a:hover {
     font-size: 30px;
 }
 
+/* SECTION TITLES */
+
+.section-title {
+    color: var(--dark-gray);
+    text-align: center;
+    font-size: 48px;
+    border-bottom: 3px solid var(--hot-pink);
+    padding-bottom: 20px;
+    width: 35%;
+    margin: 30px auto 35px auto;
+}
+
 /* ABOUT */
 
 
