@@ -9,4 +9,3 @@ This challenge is to build a portfolio website from scratch using HTML and CSS. 
 
 # Images 
 
-![Desktop Size]()
