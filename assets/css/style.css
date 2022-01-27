@@ -284,3 +284,20 @@ footer {
     padding: 20px 35px;
     justify-content: center;
 }
+
+/* MEDIA QUERY FOR 999px BREAKPOINT */
+
+@media screen and (max-width: 999px) {
+    #sprinkle-donuts {
+        width: 42%;
+    }
+    #jelly-donuts {
+        width: 42%;
+    }
+    #cake-donuts {
+        width: 42%;
+    }
+    #donut-holes {
+        width: 42%;
+    }
+}
