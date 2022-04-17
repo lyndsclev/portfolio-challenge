@@ -176,7 +176,7 @@ header nav ul li a:hover {
     position: relative;
     background-image: url('../images/date-dime.png');
     background-size: cover;
-    background-position: 80%;
+    /* background-position: 80%; */
     height: 300px;
     margin: 15px;
     padding: 10px;
@@ -189,9 +189,9 @@ header nav ul li a:hover {
 
 #jelly-donuts {
     position: relative;
-    background-image: url('../images/jelly-donut.jpg');
+    background-image: url('../images/friendless-in-seattle.png');
     background-size: cover;
-    background-position: 80%;
+    /* background-position: 80%; */
     height: 300px;
     margin: 15px;
     padding: 10px;
